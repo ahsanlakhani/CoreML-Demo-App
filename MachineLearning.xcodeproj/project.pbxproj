@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		056D66B81F4D986D00226B36 /* RoundedShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056D66B71F4D986D00226B36 /* RoundedShadowImageView.swift */; };
+		056D66BA1F4D98CD00226B36 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056D66B91F4D98CD00226B36 /* RoundedShadowButton.swift */; };
+		056D66BC1F4D98D200226B36 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056D66BB1F4D98D200226B36 /* RoundedShadowView.swift */; };
+		056D66BE1F4D997600226B36 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056D66BD1F4D997600226B36 /* CameraVC.swift */; };
+		056D66C21F4DC2E000226B36 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 056D66C11F4DC2D800226B36 /* Inceptionv3.mlmodel */; };
 		05EC2DD21F4D902700A862FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EC2DD11F4D902700A862FF /* AppDelegate.swift */; };
 		05EC2DD41F4D902700A862FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EC2DD31F4D902700A862FF /* ViewController.swift */; };
 		05EC2DD71F4D902700A862FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05EC2DD51F4D902700A862FF /* Main.storyboard */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		056D66B71F4D986D00226B36 /* RoundedShadowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowImageView.swift; sourceTree = "<group>"; };
+		056D66B91F4D98CD00226B36 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		056D66BB1F4D98D200226B36 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
+		056D66BD1F4D997600226B36 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		056D66C11F4DC2D800226B36 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		05EC2DCE1F4D902700A862FF /* MachineLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MachineLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05EC2DD11F4D902700A862FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05EC2DD31F4D902700A862FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +45,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		056D66A51F4D960100226B36 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				056D66BD1F4D997600226B36 /* CameraVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		056D66A71F4D960100226B36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				056D66BB1F4D98D200226B36 /* RoundedShadowView.swift */,
+				056D66B91F4D98CD00226B36 /* RoundedShadowButton.swift */,
+				056D66B71F4D986D00226B36 /* RoundedShadowImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		056D66B01F4D960200226B36 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				056D66C11F4DC2D800226B36 /* Inceptionv3.mlmodel */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		05EC2DC51F4D902700A862FF = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +90,9 @@
 		05EC2DD01F4D902700A862FF /* MachineLearning */ = {
 			isa = PBXGroup;
 			children = (
+				056D66A51F4D960100226B36 /* Controller */,
+				056D66B01F4D960200226B36 /* Resources */,
+				056D66A71F4D960100226B36 /* View */,
 				05EC2DD11F4D902700A862FF /* AppDelegate.swift */,
 				05EC2DD31F4D902700A862FF /* ViewController.swift */,
 				05EC2DD51F4D902700A862FF /* Main.storyboard */,
@@ -135,6 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				056D66B81F4D986D00226B36 /* RoundedShadowImageView.swift in Sources */,
+				056D66BE1F4D997600226B36 /* CameraVC.swift in Sources */,
+				056D66BA1F4D98CD00226B36 /* RoundedShadowButton.swift in Sources */,
+				056D66BC1F4D98D200226B36 /* RoundedShadowView.swift in Sources */,
+				056D66C21F4DC2E000226B36 /* Inceptionv3.mlmodel in Sources */,
 				05EC2DD41F4D902700A862FF /* ViewController.swift in Sources */,
 				05EC2DD21F4D902700A862FF /* AppDelegate.swift in Sources */,
 			);
